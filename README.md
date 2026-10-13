@@ -20,7 +20,7 @@ power-bi-tools/
 ## Roadmap
 
 - [x] Initialize the repository structure
-- [ ] Add reusable Power Query (M) scripts
+- [x] Add reusable Power Query (M) scripts
 - [ ] Add reusable DAX formulas
 - [ ] Add practical Power BI examples
 
