@@ -1,0 +1,19 @@
+# Power BI local caches and user settings
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+**/.pbi/unappliedChanges.json
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Temporary and backup files
+~$*
+*.tmp
+*.bak
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
