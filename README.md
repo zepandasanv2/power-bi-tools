@@ -21,7 +21,7 @@ power-bi-tools/
 
 - [x] Initialize the repository structure
 - [x] Add reusable Power Query (M) scripts
-- [ ] Add reusable DAX formulas
+- [x] Add reusable DAX formulas
 - [ ] Add practical Power BI examples
 
 ## License

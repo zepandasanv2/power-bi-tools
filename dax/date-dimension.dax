@@ -1,0 +1,24 @@
+
+DimDate =
+VAR StartDate = DATE(2020, 1, 1)
+VAR EndDate = DATE(2030, 12, 31)
+RETURN
+ADDCOLUMNS(
+    CALENDAR(StartDate, EndDate),
+
+    "Year", YEAR([Date]),
+    "Quarter", "Q" & QUARTER([Date]),
+    "Quarter Number", QUARTER([Date]),
+
+    "Month Number", MONTH([Date]),
+    "Month Name", FORMAT([Date], "MMMM", "en-US"),
+    "Month Short", FORMAT([Date], "MMM", "en-US"),
+    "Year Month", FORMAT([Date], "yyyy-MM"),
+
+    "Day", DAY([Date]),
+    "Day Name", FORMAT([Date], "dddd", "en-US"),
+    "Day Number", WEEKDAY([Date], 2),
+
+    "Week Number", WEEKNUM([Date], 2),
+    "Is Weekend", WEEKDAY([Date], 2) >= 6
+)
