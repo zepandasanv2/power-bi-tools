@@ -1,0 +1,7 @@
+
+Date Difference =
+DATEDIFF(
+    'Table'[StartDate],
+    'Table'[EndDate],
+    DAY
+)
